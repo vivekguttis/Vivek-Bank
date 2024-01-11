@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: brown;
+    color: white;
+}
+
+#box1 i{
+    padding: 10px;
+}
+
+#box3 .boxaside{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.tab{
+    border: 1px solid brown;
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+.tab #boxs1,#boxs2,#boxs3{
+    padding: 10px;
+    color: brown;
+    border-right: 3px solid brown;
+    width: 100%;
+}
+
+#boxs1{
+    background: brown;
+    color: white;
+}
+
+.mains{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#boxes1,#boxes2,#boxes3,#boxes4{
+    width: 49%;
+}
+
+.btnblock{
+    width: 90%;
+    margin: auto;
+}
+
+.btnblock button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: brown;
+    border: transparent;
+    border-radius: 10px;
+}
+
+#boxes1,#boxes2,#boxes3,#boxes4,#boxes5,#boxes6,#boxes7,#boxes8,#boxes9,#boxes10,#boxes11,#boxes12,#boxes13,#boxes14,#boxes15{
+    display: flex;
+    padding: 10px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
+}
